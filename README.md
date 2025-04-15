@@ -1,16 +1,21 @@
-# graphql_querys
+# Flutter + GraphQL Albums App 🎵
 
-A new Flutter project.
+Esta es una aplicación sencilla creada con Flutter que utiliza la librería [`graphql_flutter: ^5.1.2`](https://pub.dev/packages/graphql_flutter) para consumir APIs GraphQL de forma eficiente.
 
-## Getting Started
+## 🚀 ¿Qué hace esta app?
 
-This project is a starting point for a Flutter application.
+La aplicación se conecta a una API de ejemplo (`https://graphqlzero.almansi.me/api`) y muestra una lista paginada de álbumes musicales. Cada álbum incluye información del usuario que lo creó, como nombre, usuario y correo electrónico.
 
-A few resources to get you started if this is your first Flutter project:
+Se implementa paginación manual, permitiendo al usuario seleccionar el número de página y la cantidad de álbumes a mostrar por página usando menús desplegables.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tecnologías usadas
+
+- Flutter
+- GraphQL (con `graphql_flutter ^5.1.2`)
+- API pública de prueba: [GraphQL Zero](https://graphqlzero.almansi.me)
+
+## 📸 Captura de pantalla
+
+https://github.com/user-attachments/assets/498e8d40-f680-4778-9e1c-4ea6d5dbb22c
+
